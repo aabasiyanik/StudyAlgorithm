@@ -15,7 +15,7 @@ def is_valid_subsequence(arr, subsequence):
     # Check if the subsequence pointer has reached the end of the subsequence list
     return seq_index == len(subsequence)
 
-array = [5, 56, 12, 59, 102, 3, 67, 98]
-sub = [56, 59, 67]
+array = [5, 56, 12, 59, 102, 3, 67, 98, 5, 9]
+sub = [56, 59, 67,9]
 
 print(is_valid_subsequence(array, sub))
