@@ -7,5 +7,5 @@ def containsDuplicate(nums):
         num_set.add(num)
     return False
 
-nums = [1,1,1,3,3,4,3,2,4,2,5]
+nums = [1,3,3,4,3,2,4,2,5]
 print(containsDuplicate(nums))
